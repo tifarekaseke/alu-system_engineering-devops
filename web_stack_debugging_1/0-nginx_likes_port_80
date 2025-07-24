@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
     echo "Removing conflicting symbolic link."
     rm -f etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
